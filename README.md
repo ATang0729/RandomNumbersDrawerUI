@@ -32,3 +32,8 @@ EN:
 
 - [ ] 添加计数板，可以记录每次抽签抽到的编号；添加抽签回退功能，如果有人没有/无法领取奖项，可以抹去计数板上的最后一个编号
 - [ ] 允许自定义每次抽签的数量或者允许用户同时抽多个签
+
+# Reference | 参考教程
+
+- https://www.bilibili.com/video/BV1Li4y1m79p/
+- https://blog.csdn.net/BrickPicker/article/details/128763522
