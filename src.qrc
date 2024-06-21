@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/Close.svg</file>
+    <file>images/毕业晚会海报.jpg</file>
+  </qresource>
+</RCC>
