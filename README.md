@@ -25,8 +25,8 @@ Unlike random number generation, you can decide for yourself when to start drawi
 
 EN:
 
--[ ] Add counting board, you can record the number drawn each time; add draw back function, if someone does not/can not receive the award, you can erase the last number on the counting board.
--[ ] Allows you to customize the number of lots per draw or draw multiple lots simultaneously
+- [ ] Add counting board, you can record the number drawn each time; add draw back function, if someone does not/can not receive the award, you can erase the last number on the counting board.
+- [ ] Allows you to customize the number of lots per draw or draw multiple lots simultaneously
 
 中文:
 
