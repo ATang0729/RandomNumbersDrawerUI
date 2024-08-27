@@ -28,14 +28,15 @@ class Ui_MainWindow(object):
         self.label_2.setGeometry(QtCore.QRect(480, 100, 421, 565))
         self.label_2.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                    "border-top-right-radius: 30px;\n"
-                                   "border-bottom-right-radius: 30px;")
+                                   "border-bottom-right-radius: 30px;\n"
+                                   "")
         self.label_2.setText("")
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(540, 230, 300, 200))
         font = QtGui.QFont()
         font.setFamily("阿里妈妈数黑体")
-        font.setPointSize(24)
+        font.setPointSize(40)
         font.setBold(True)
         font.setWeight(75)
         font.setKerning(False)
@@ -54,6 +55,11 @@ class Ui_MainWindow(object):
         self.StartButton = QtWidgets.QPushButton(self.widget)
         self.StartButton.setEnabled(True)
         self.StartButton.setGeometry(QtCore.QRect(50, 30, 141, 60))
+        font = QtGui.QFont()
+        font.setPointSize(18)
+        font.setBold(True)
+        font.setWeight(75)
+        self.StartButton.setFont(font)
         self.StartButton.setStyleSheet("#StartButton {\n"
                                        "    background-color: rgb(0, 0, 0);\n"
                                        "    color: rgb(255, 255, 255);\n"
@@ -73,6 +79,11 @@ class Ui_MainWindow(object):
         self.PauseButton = QtWidgets.QPushButton(self.widget)
         self.PauseButton.setEnabled(True)
         self.PauseButton.setGeometry(QtCore.QRect(230, 30, 141, 60))
+        font = QtGui.QFont()
+        font.setPointSize(18)
+        font.setBold(True)
+        font.setWeight(75)
+        self.PauseButton.setFont(font)
         self.PauseButton.setStyleSheet("#PauseButton {\n"
                                        "    background-color: rgb(0, 0, 0);\n"
                                        "    color: rgb(255, 255, 255);\n"
@@ -106,7 +117,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_3.setText(_translate("MainWindow", "TextLabel"))
+        self.label_3.setText(_translate("MainWindow", "抽奖编号"))
         self.StartButton.setText(_translate("MainWindow", "开始抽奖"))
         self.PauseButton.setText(_translate("MainWindow", "停止抽奖"))
 
