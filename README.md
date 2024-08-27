@@ -15,6 +15,10 @@ run the following code in the terminal of the current folder
 - pip install requirements.txt
 - python main.py
 
+> ⚠️ WARNING: When installed in other devices, this program still has some bugs and may need to be further debugged.
+> 
+> ⚠️ 警告：当安装在其他设备上时，该程序仍然存在一些错误，可能需要进一步调试。
+
 Unlike random number generation, you can decide for yourself when to start drawing numbers and when to end them. However, the current function only supports extracting one number at a time
 
 不同于随机数生成，你可以自己决定什么时候开始抽数，和什么时候结束。但目前的功能只支持一次抽取一个数字。
